@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .content {
+            height: 150px;
+        }
+
+        .menu {
+            background-color: aqua;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border="3">
+        <!-- Header -->
+        <tr>
+            <th>LOGO</th>
+            <th colspan="5">ONLINE BOOK STORE</th>
+        </tr>
+
+        <!-- Navigation -->
+        <tr class="menu">
+            <td><a href="home.html">Home</a></td>
+            <td><a href="login.html">Login</a></td>
+            <td>Registration</td>
+            <td>Catalogue</td>
+            <td>Cart</td>
+        </tr>
+
+        <!-- Content -->
+        <tr>
+            <!-- Left side -->
+            <td class="left">
+                CSE <br>
+                ECE <br>
+                EEE <br>
+                CIVIL
+            </td>
+
+            <!-- Right side -->
+            <td colspan="4" class="content">
+                <h2 style="text-align:center">Welcome to Online Book Store</h2>
+                <p>
+                    This website provides a wide range of books for different departments
+                    like CSE, ECE, EEE, and CIVIL. Users can browse books, login,
+                    register, and add books to their cart.
+                </p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
